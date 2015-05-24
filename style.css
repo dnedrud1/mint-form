@@ -1,0 +1,137 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: proxima-nova, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #282828;
+  background-color: #F7F7F7;
+}
+
+.background_top {
+  background-color: white;
+  height: 320px;
+  border-bottom: 1px solid #E0E0E0;
+}
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top:10px;
+}
+
+nav {
+  width: 200px;
+  margin: auto;
+  padding-left:40px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #282828;
+}
+
+nav p {
+  display: inline;
+  padding: 20px 10px;
+  font-size: 14px;
+}
+
+.form_container {
+  background-color: white;
+  position: relative;
+  text-align: center;
+  padding: 20px 40px;
+  margin: auto;
+  height: 450px;
+  width: 500px;
+  margin-top: -150px;
+  border: 1px solid #E0E0E0;
+  border-radius: 3px;
+  z-index: 1;
+}
+
+.form_container p {
+  color: #A8A8A8;
+  font-size: 14px;
+}
+
+.form_container input {
+  display: block;
+  border: 1px solid #E0E0E0;
+  border-radius: 3px;
+  margin-top: 10px;
+  padding-left: 10px;
+  height: 40px;
+  width: 100%;
+}
+
+.form-bottom {
+  text-align: left;
+}
+
+.form-bottom a {
+  text-decoration: none;
+  color: #79D1EF;
+  font-size: 14px;
+  margin: 0px;
+}
+
+.form-bottom a:hover {
+  text-decoration: underline;
+}
+
+.form-bottom button {
+  background-color: #41bfda;
+  color: white;
+  border: none;
+  padding: 13px 20px 11px 20px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.form-bottom button:hover {
+  background-color: #3AACC4;
+}
+
+footer {
+  height:300px;
+  text-align: center;
+}
+
+footer a {
+  color: #282828;
+  text-decoration: none;
+  font-size: 12px;
+  margin-left: 20px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.footer-top {
+  margin-top: 80px;
+}
+
+.icon {
+  display: inline;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px 25px;
+}
+
+.footer-bottom p {
+  color: #A8A8A8;
+  font-size: 12px;
+}
+
+.footer-bottom a {
+  text-decoration: none;
+  color: #79D1EF;
+  font-size: 12px;
+  margin: 0px;
+}
+
+.footer-bottom a:hover {
+  text-decoration: underline;
+}
